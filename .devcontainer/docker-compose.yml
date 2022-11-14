@@ -5,6 +5,7 @@ services:
     image: mcr.microsoft.com/vscode/devcontainers/javascript-node:0-16-bullseye
     volumes:
       - .:/workspace:cached
+      - /:/tmp/mnt
 
     # Overrides default command so things don't shut down after the process ends.
     command: sleep infinity

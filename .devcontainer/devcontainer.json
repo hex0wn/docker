@@ -1,7 +1,7 @@
 {
     "name": "Python 3",
     "dockerComposeFile": "docker-compose.yml",
-    "service": "v2ray",
+    "service": "app",
 	"settings": {},
 
     // Use 'forwardPorts' to make a list of ports inside the container available locally.
